@@ -1,0 +1,31 @@
+{
+  "name": "handsfree-voice",
+  "description": "Hands-free voice mode for Claude Code by Liviciana.",
+  "owner": {
+    "name": "Liviciana",
+    "url": "https://github.com/Livicianaa"
+  },
+  "plugins": [
+    {
+      "name": "handsfree-voice",
+      "source": "./",
+      "description": "Hands-free voice mode for Claude Code: wake word, local speech-to-text (Whisper) and spoken replies (Piper/Chatterbox). 9 languages, Linux + Windows beta.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Liviciana"
+      },
+      "license": "MIT",
+      "keywords": [
+        "voice",
+        "voice-mode",
+        "hands-free",
+        "speech-to-text",
+        "text-to-speech",
+        "wake-word",
+        "whisper",
+        "piper",
+        "accessibility"
+      ]
+    }
+  ]
+}

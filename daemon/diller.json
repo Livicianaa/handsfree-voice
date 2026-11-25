@@ -1,0 +1,287 @@
+{
+  "tr": {
+    "dil_adi": "Turkish",
+    "voice": "tr_TR-fahrettin-medium",
+    "voice_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/tr/tr_TR/fahrettin/medium/tr_TR-fahrettin-medium.onnx",
+    "json_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/tr/tr_TR/fahrettin/medium/tr_TR-fahrettin-medium.onnx.json",
+    "selam": "Efendim",
+    "gule": "Görüşürüz",
+    "soru_ad": "Bana ne diye seslenmek istersin?",
+    "soru_tekrar": "Bir kez daha söyler misin?",
+    "zor_isim": "Bu isim zor anlaşılıyor, başka bir isim söyle.",
+    "soru_kullanici": "Sana ne diye hitap edeyim?",
+    "hazir": "Hazırım {kullanici}. Bana {ad} diye seslen.",
+    "kapat_kelimeleri": [
+      "kapat",
+      "sesi kapat",
+      "ses modunu kapat",
+      "ses modu kapat"
+    ],
+    "baglam": "VOICE MODE ON: user speaks Turkish. Work and answer in the terminal normally and fully. The LAST line of your reply must start with \"Sesli: \" (keep this exact prefix) and contain 1-2 short natural sentences in Turkish, no markdown/code/paths. Your name in voice mode is {ad}; address the user as {kullanici}.",
+    "bilgi_acildi": "Ses modu açılıyor (~20 sn). '{ad} ...' diye başla.",
+    "bilgi_kapandi": "Ses modu kapatıldı.",
+    "ses_kis": [
+      "sesi kıs",
+      "sesini kıs",
+      "sesi azalt",
+      "daha sessiz"
+    ],
+    "ses_ac": [
+      "sesi aç",
+      "sesini aç",
+      "sesi yükselt",
+      "daha yüksek"
+    ],
+    "tamam": "Tamam"
+  },
+  "en": {
+    "dil_adi": "English",
+    "voice": "en_US-lessac-medium",
+    "voice_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/lessac/medium/en_US-lessac-medium.onnx",
+    "json_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/lessac/medium/en_US-lessac-medium.onnx.json",
+    "selam": "Yes?",
+    "gule": "Goodbye",
+    "soru_ad": "What would you like to call me?",
+    "soru_tekrar": "Could you say that once more?",
+    "zor_isim": "That name is hard to understand, please choose another name.",
+    "soru_kullanici": "How should I address you?",
+    "hazir": "I am ready {kullanici}. Call me {ad}.",
+    "kapat_kelimeleri": [
+      "stop",
+      "turn off",
+      "turn off voice",
+      "exit voice",
+      "close voice"
+    ],
+    "baglam": "VOICE MODE ON: user speaks English. Work and answer in the terminal normally and fully. The LAST line of your reply must start with \"Sesli: \" (keep this exact prefix) and contain 1-2 short natural sentences in English, no markdown/code/paths. Your name in voice mode is {ad}; address the user as {kullanici}.",
+    "bilgi_acildi": "Voice mode is starting (~20s). Start with '{ad} ...'.",
+    "bilgi_kapandi": "Voice mode turned off.",
+    "ses_kis": [
+      "volume down",
+      "quieter",
+      "lower the volume"
+    ],
+    "ses_ac": [
+      "volume up",
+      "louder",
+      "raise the volume"
+    ],
+    "tamam": "Okay"
+  },
+  "es": {
+    "dil_adi": "Spanish",
+    "voice": "es_ES-davefx-medium",
+    "voice_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/es/es_ES/davefx/medium/es_ES-davefx-medium.onnx",
+    "json_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/es/es_ES/davefx/medium/es_ES-davefx-medium.onnx.json",
+    "selam": "Dime",
+    "gule": "Hasta luego",
+    "soru_ad": "¿Cómo te gustaría llamarme?",
+    "soru_tekrar": "¿Podrías repetirlo una vez más?",
+    "zor_isim": "Ese nombre es difícil de entender, elige otro nombre.",
+    "soru_kullanici": "¿Cómo debería llamarte?",
+    "hazir": "Estoy listo {kullanici}. Llámame {ad}.",
+    "kapat_kelimeleri": [
+      "apagar",
+      "cerrar",
+      "desactivar voz",
+      "apagar voz"
+    ],
+    "baglam": "VOICE MODE ON: user speaks Spanish. Work and answer in the terminal normally and fully. The LAST line of your reply must start with \"Sesli: \" (keep this exact prefix) and contain 1-2 short natural sentences in Spanish, no markdown/code/paths. Your name in voice mode is {ad}; address the user as {kullanici}.",
+    "bilgi_acildi": "Iniciando modo de voz (~20s). Comienza con '{ad} ...'.",
+    "bilgi_kapandi": "Modo de voz desactivado.",
+    "ses_kis": [
+      "baja el volumen",
+      "más bajo"
+    ],
+    "ses_ac": [
+      "sube el volumen",
+      "más alto"
+    ],
+    "tamam": "Vale"
+  },
+  "fr": {
+    "dil_adi": "French",
+    "voice": "fr_FR-siwis-medium",
+    "voice_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx",
+    "json_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx.json",
+    "selam": "Oui",
+    "gule": "Au revoir",
+    "soru_ad": "Comment aimerais-tu m'appeler ?",
+    "soru_tekrar": "Peux-tu répéter une fois ?",
+    "zor_isim": "Ce nom est difficile à comprendre, choisis un autre nom.",
+    "soru_kullanici": "Comment dois-je t'appeler ?",
+    "hazir": "Je suis prêt {kullanici}. Appelle-moi {ad}.",
+    "kapat_kelimeleri": [
+      "fermer",
+      "quitter",
+      "désactiver la voix",
+      "arrêter la voix"
+    ],
+    "baglam": "VOICE MODE ON: user speaks French. Work and answer in the terminal normally and fully. The LAST line of your reply must start with \"Sesli: \" (keep this exact prefix) and contain 1-2 short natural sentences in French, no markdown/code/paths. Your name in voice mode is {ad}; address the user as {kullanici}.",
+    "bilgi_acildi": "Activation du mode vocal (~20s). Commencez par '{ad} ...'.",
+    "bilgi_kapandi": "Mode vocal désactivé.",
+    "ses_kis": [
+      "baisse le son",
+      "moins fort"
+    ],
+    "ses_ac": [
+      "monte le son",
+      "plus fort"
+    ],
+    "tamam": "D'accord"
+  },
+  "de": {
+    "dil_adi": "German",
+    "voice": "de_DE-thorsten-medium",
+    "voice_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/de/de_DE/thorsten/medium/de_DE-thorsten-medium.onnx",
+    "json_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/de/de_DE/thorsten/medium/de_DE-thorsten-medium.onnx.json",
+    "selam": "Ja",
+    "gule": "Auf Wiedersehen",
+    "soru_ad": "Wie möchtest du mich nennen?",
+    "soru_tekrar": "Kannst du das noch einmal sagen?",
+    "zor_isim": "Dieser Name ist schwer zu verstehen, bitte wähle einen anderen Namen.",
+    "soru_kullanici": "Wie soll ich dich ansprechen?",
+    "hazir": "Ich bin bereit {kullanici}. Nenne mich {ad}.",
+    "kapat_kelimeleri": [
+      "beenden",
+      "schließen",
+      "sprachmodus beenden",
+      "ausschalten"
+    ],
+    "baglam": "VOICE MODE ON: user speaks German. Work and answer in the terminal normally and fully. The LAST line of your reply must start with \"Sesli: \" (keep this exact prefix) and contain 1-2 short natural sentences in German, no markdown/code/paths. Your name in voice mode is {ad}; address the user as {kullanici}.",
+    "bilgi_acildi": "Sprachmodus wird gestartet (~20s). Beginne mit '{ad} ...'.",
+    "bilgi_kapandi": "Sprachmodus beendet.",
+    "ses_kis": [
+      "leiser",
+      "lautstärke runter"
+    ],
+    "ses_ac": [
+      "lauter",
+      "lautstärke hoch"
+    ],
+    "tamam": "Okay"
+  },
+  "pt": {
+    "dil_adi": "Portuguese",
+    "voice": "pt_BR-faber-medium",
+    "voice_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/pt/pt_BR/faber/medium/pt_BR-faber-medium.onnx",
+    "json_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/pt/pt_BR/faber/medium/pt_BR-faber-medium.onnx.json",
+    "selam": "Sim",
+    "gule": "Até logo",
+    "soru_ad": "Como você gostaria de me chamar?",
+    "soru_tekrar": "Pode repetir mais uma vez?",
+    "zor_isim": "Esse nome é difícil de entender, escolha outro nome.",
+    "soru_kullanici": "Como devo chamar você?",
+    "hazir": "Estou pronto {kullanici}. Me chame de {ad}.",
+    "kapat_kelimeleri": [
+      "fechar",
+      "desativar voz",
+      "desligar voz",
+      "sair"
+    ],
+    "baglam": "VOICE MODE ON: user speaks Portuguese. Work and answer in the terminal normally and fully. The LAST line of your reply must start with \"Sesli: \" (keep this exact prefix) and contain 1-2 short natural sentences in Portuguese, no markdown/code/paths. Your name in voice mode is {ad}; address the user as {kullanici}.",
+    "bilgi_acildi": "Modo de voz iniciando (~20s). Comece com '{ad} ...'.",
+    "bilgi_kapandi": "Modo de voz desativado.",
+    "ses_kis": [
+      "abaixa o volume",
+      "mais baixo"
+    ],
+    "ses_ac": [
+      "aumenta o volume",
+      "mais alto"
+    ],
+    "tamam": "Certo"
+  },
+  "ru": {
+    "dil_adi": "Russian",
+    "voice": "ru_RU-irina-medium",
+    "voice_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/ru/ru_RU/irina/medium/ru_RU-irina-medium.onnx",
+    "json_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/ru/ru_RU/irina/medium/ru_RU-irina-medium.onnx.json",
+    "selam": "Слушаю",
+    "gule": "До свидания",
+    "soru_ad": "Как ты хочешь меня называть?",
+    "soru_tekrar": "Повтори еще раз, пожалуйста.",
+    "zor_isim": "Это имя трудно распознать, выбери другое имя.",
+    "soru_kullanici": "Как мне к тебе обращаться?",
+    "hazir": "Я готов {kullanici}. Зови меня {ad}.",
+    "kapat_kelimeleri": [
+      "закрыть",
+      "отключить голос",
+      "выключить",
+      "стоп"
+    ],
+    "baglam": "VOICE MODE ON: user speaks Russian. Work and answer in the terminal normally and fully. The LAST line of your reply must start with \"Sesli: \" (keep this exact prefix) and contain 1-2 short natural sentences in Russian, no markdown/code/paths. Your name in voice mode is {ad}; address the user as {kullanici}.",
+    "bilgi_acildi": "Голосовой режим запускается (~20 сек). Начните с '{ad} ...'.",
+    "bilgi_kapandi": "Голосовой режим выключен.",
+    "ses_kis": [
+      "тише",
+      "убавь звук"
+    ],
+    "ses_ac": [
+      "громче",
+      "прибавь звук"
+    ],
+    "tamam": "Хорошо"
+  },
+  "ar": {
+    "dil_adi": "Arabic",
+    "voice": "ar_JO-kareem-medium",
+    "voice_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/ar/ar_JO/kareem/medium/ar_JO-kareem-medium.onnx",
+    "json_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/ar/ar_JO/kareem/medium/ar_JO-kareem-medium.onnx.json",
+    "selam": "نعم",
+    "gule": "مع السلامة",
+    "soru_ad": "ماذا تحب أن تناديني؟",
+    "soru_tekrar": "هل يمكنك أن تقول ذلك مرة أخرى؟",
+    "zor_isim": "يصعب فهم هذا الاسم، يرجى اختيار اسم آخر.",
+    "soru_kullanici": "كيف تحب أن أناديك؟",
+    "hazir": "أنا جاهز {kullanici}. نادني {ad}.",
+    "kapat_kelimeleri": [
+      "إغلاق",
+      "إيقاف الصوت",
+      "إنهاء",
+      "توقف"
+    ],
+    "baglam": "VOICE MODE ON: user speaks Arabic. Work and answer in the terminal normally and fully. The LAST line of your reply must start with \"Sesli: \" (keep this exact prefix) and contain 1-2 short natural sentences in Arabic, no markdown/code/paths. Your name in voice mode is {ad}; address the user as {kullanici}.",
+    "bilgi_acildi": "جاري تشغيل الوضع الصوتي (~20 ثانية). ابدأ بـ '{ad} ...'.",
+    "bilgi_kapandi": "تم إيقاف الوضع الصوتي.",
+    "ses_kis": [
+      "اخفض الصوت",
+      "أخفض الصوت"
+    ],
+    "ses_ac": [
+      "ارفع الصوت"
+    ],
+    "tamam": "حسنا"
+  },
+  "hi": {
+    "dil_adi": "Hindi",
+    "voice": "hi_IN-pratham-medium",
+    "voice_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/hi/hi_IN/pratham/medium/hi_IN-pratham-medium.onnx",
+    "json_url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/hi/hi_IN/pratham/medium/hi_IN-pratham-medium.onnx.json",
+    "selam": "हाँ",
+    "gule": "अलविदा",
+    "soru_ad": "आप मुझे क्या नाम देना चाहते हैं?",
+    "soru_tekrar": "क्या आप इसे एक बार फिर कह सकते हैं?",
+    "zor_isim": "यह नाम समझना मुश्किल है, कृपया दूसरा नाम चुनें।",
+    "soru_kullanici": "मैं आपको क्या कहकर बुलाऊं?",
+    "hazir": "मैं तैयार हूँ {kullanici}। मुझे {ad} कहकर बुलाएं।",
+    "kapat_kelimeleri": [
+      "बंद करो",
+      "आवाज बंद करो",
+      "समाप्त",
+      "रुकें"
+    ],
+    "baglam": "VOICE MODE ON: user speaks Hindi. Work and answer in the terminal normally and fully. The LAST line of your reply must start with \"Sesli: \" (keep this exact prefix) and contain 1-2 short natural sentences in Hindi, no markdown/code/paths. Your name in voice mode is {ad}; address the user as {kullanici}.",
+    "bilgi_acildi": "वॉइस मोड शुरू हो रहा है (~20 सेकंड)। '{ad} ...' से शुरू करें।",
+    "bilgi_kapandi": "वॉइस मोड बंद कर दिया गया।",
+    "ses_kis": [
+      "आवाज़ कम करो",
+      "धीरे बोलो"
+    ],
+    "ses_ac": [
+      "आवाज़ बढ़ाओ",
+      "ज़ोर से बोलो"
+    ],
+    "tamam": "ठीक है"
+  }
+}

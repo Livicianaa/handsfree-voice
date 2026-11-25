@@ -1,0 +1,25 @@
+{
+  "name": "handsfree-voice",
+  "version": "0.1.0",
+  "description": "Hands-free voice mode for Claude Code: say a wake word, talk, and hear short spoken replies. Local speech recognition (Whisper) and speech (Piper or Chatterbox), 9 languages, Linux and Windows.",
+  "author": {
+    "name": "Liviciana",
+    "url": "https://github.com/Livicianaa"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Livicianaa/handsfree-voice",
+  "repository": "https://github.com/Livicianaa/handsfree-voice",
+  "keywords": [
+    "voice",
+    "voice-mode",
+    "hands-free",
+    "speech",
+    "speech-to-text",
+    "text-to-speech",
+    "wake-word",
+    "whisper",
+    "piper",
+    "accessibility",
+    "dictation"
+  ]
+}
